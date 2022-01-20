@@ -1,0 +1,279 @@
+html {
+    min-height: 100%;
+}
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbarAtas .row .col-12 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.buttonNavbar {
+    background-color: #FB928E;
+    color: black;
+    margin-top: 20px;
+    width: 715px;
+    padding: 25px;
+    font-size: 24px;
+    text-align: center;
+}
+
+.buttonNavbar:hover {
+    background-color: #E97F7B;
+    text-decoration: none;
+    color: black;
+}
+
+.produk .col-12 h1 {
+    color: #FB928E;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.produk .kolomProduk {
+    width: 350px;
+    margin-top: 40px;
+    cursor: pointer;
+}
+
+.produk .row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+.produk .kolomProduk img {
+    width: 350px;
+    height: 350px;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.produk .kolomProduk .kolomItem {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.produk .kolomProduk .kolomItem .kolomJudul {
+    width: 100%;
+    color: #FB928E;
+    font-size: 16px;
+}
+
+.produk .kolomProduk .kolomItem .judulProduk {
+    font-weight: 500;
+}
+
+.produk .kolomProduk .kolomItem .harga {
+    font-weight: 100;
+}
+
+.produk .kolomProduk .kolomItem .kolomHargaCart {
+    color: #FB928E;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    width: 100%;
+    margin-top: auto;
+}
+
+.produk .kolomProduk .kolomItem img {
+    width: 52px;
+    height: 52px;
+    margin-left: 60px;
+}
+
+/* Modal */
+
+.modal .modal-header h4 {
+    color: #FB928E;
+    font-size: 20px;
+}
+
+.modal .modal-body p {
+    color: #FB928E;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.modal .modal-footer a {
+    background-color: #FB928E;
+    width: 100%;
+    padding: 10px;
+    color: black;
+    font-size: 16px;
+    text-align: center;
+}
+
+.modal .modal-footer a:hover {
+    background-color: #E97F7B;
+    width: 100%;
+    text-decoration: none;
+    padding: 10px;
+    color: black;
+    font-size: 16px;
+    text-align: center;
+}
+
+/* End of Modal */
+
+
+
+
+
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #FB928E;
+    font-size: 20px;
+    margin-top: 20px;
+    font-weight: 300;
+    width: 100%;
+}
+
+@media (max-width: 375px) {
+
+    .navbarAtas .row .col-12 img {
+        width: 82px;
+        height: 82px;
+    }
+
+    .buttonNavbar {
+        margin-top: 15px;
+        width: 274px;
+        padding: 14px;
+        font-size: 14px;
+    }
+
+    .buttonNavbar:hover {
+        background-color: #E97F7B;
+    }
+
+    .produk .col-12 h1 {
+        font-size: 20px;
+        margin-top: 15px;
+    }
+
+    .produk .kolomProduk {
+        width: 126px;
+        margin-top: 10px;
+    }
+
+    .produk .kolomProduk img {
+        width: 126px;
+        height: 126px;
+        padding: 5px;
+        border-radius: 10px;
+    }
+
+    .produk .kolomProduk .kolomItem {
+        padding: 5px;
+    }
+
+    .produk .kolomProduk .kolomItem .kolomJudul {
+        font-size: 12px;
+        height: 82px;
+    }
+
+    .produk .kolomProduk .kolomItem .kolomHargaCart {
+        font-size: 12px;
+    }
+
+    .produk .kolomProduk .kolomItem .kolomHargaCart img {
+        margin-bottom: 7.5px;
+    }
+
+    .produk .kolomProduk .kolomItem img {
+        width: 32px;
+        height: 32px;
+        margin-left: 10px;
+    }
+
+    footer {
+        text-align: center;
+        background-color: #FB928E;
+        font-size: 14px;
+        margin-top: 20px;
+        font-weight: 300;
+        width: 100%;
+    }
+}
+
+@media (max-width: 576px) {
+
+    .navbarAtas .row .col-12 img {
+        width: 82px;
+        height: 82px;
+    }
+
+    .buttonNavbar {
+        margin-top: 15px;
+        width: 274px;
+        padding: 14px;
+        font-size: 14px;
+    }
+
+    .buttonNavbar:hover {
+        background-color: #E97F7B;
+    }
+
+    .produk .col-12 h1 {
+        font-size: 20px;
+        margin-top: 15px;
+    }
+
+    .produk .kolomProduk {
+        width: 126px;
+        margin-top: 10px;
+    }
+
+    .produk .kolomProduk img {
+        width: 126px;
+        height: 126px;
+        padding: 5px;
+        border-radius: 10px;
+    }
+
+    .produk .kolomProduk .kolomItem {
+        padding: 5px;
+    }
+
+    .produk .kolomProduk .kolomItem .kolomJudul {
+        font-size: 12px;
+        height: 82px;
+    }
+
+    .produk .kolomProduk .kolomItem .kolomHargaCart {
+        font-size: 12px;
+    }
+
+    .produk .kolomProduk .kolomItem .kolomHargaCart img {
+        margin-bottom: 7.5px;
+    }
+
+    .produk .kolomProduk .kolomItem img {
+        width: 32px;
+        height: 32px;
+        margin-left: 10px;
+    }
+
+    footer {
+        text-align: center;
+        background-color: #FB928E;
+        font-size: 14px;
+        margin-top: 20px;
+        font-weight: 300;
+        width: 100%;
+    }
+}

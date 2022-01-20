@@ -1,0 +1,263 @@
+html {
+    min-height: 100%;
+}
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Navbar */
+
+.navbarAtas .row .col-12 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.content .product a:hover {
+    color: #E97F7B;
+}
+
+.buttonNavbar {
+    background-color: #FB928E;
+    color: black;
+    margin-top: 20px;
+    width: 715px;
+    padding: 25px;
+    font-size: 24px;
+    text-align: center;
+}
+
+.buttonNavbar:hover {
+    background-color: #E97F7B;
+    text-decoration: none;
+    color: black;
+}
+
+/* Ending of Navbar */
+
+/* Content of Landing Page */
+
+.content .headline h1 {
+    color: #FB928E;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 80px;
+}
+
+.content .product {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.content .product .imgproduct {
+    width: 360px;
+    height: 360px;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.content .product p {
+    margin-top: 20px;
+    font-size: 20px;
+    color: #FB928E;
+}
+
+.content .headline2 h1 {
+    color: #FB928E;
+    text-align: center;
+    font-size: 30px;
+}
+
+.content .allProduct {
+    margin-top: 60px;
+}
+
+.content .product2 {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.content .product2 .imgproduct {
+    width: 300px;
+    height: 300px;
+    border-radius: 5px;
+}
+
+.content .product2 p {
+    font-size: 20px;
+    color: #FB928E;
+    margin-top: 20px;
+}
+
+.content .product2 a:hover {
+    color: #E97F7B;
+}
+
+/* Footer */
+
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #FB928E;
+    font-size: 20px;
+    margin-top: 20px;
+    font-weight: 300;
+}
+
+/* Ending Footer */
+
+/* Ending of Landing Page */
+
+@media (max-width: 375px) {
+    .navbarAtas .row .col-12 img {
+        width: 82px;
+        height: 82px;
+    }
+
+    .buttonNavbar {
+        margin-top: 15px;
+        width: 274px;
+        padding: 14px;
+        font-size: 14px;
+    }
+
+    .content .headline h1 {
+        font-size: 18px;
+        margin-top: 40px;
+    }
+
+    .content .product {
+        margin-top: 5px;
+    }
+
+    .content .product .imgproduct {
+        width: 250px;
+        height: 250px;
+        padding: 5px;
+        border-radius: 10px;
+    }
+
+    .content .product p {
+        margin-top: 1px;
+        font-size: 14px;
+    }
+
+    .content .headline2 h1 {
+        font-size: 18px;
+    }
+
+    .content .allProduct {
+        margin-top: 40px;
+    }
+
+    .content .product2 {
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .content .product2 .imgproduct {
+        width: 126.48px;
+        height: 126.48px;
+        border-radius: 5px;
+    }
+
+    .content .product2 p {
+        margin-top: 10px;
+        font-size: 14px;
+    }
+
+    .content .product2 a:hover {
+        color: #E97F7B;
+    }
+
+    footer {
+        text-align: center;
+        background-color: #FB928E;
+        font-size: 14px;
+        margin-top: 20px;
+        font-weight: 300;
+    }
+}
+
+@media (max-width: 576px) {
+    .navbarAtas .row .col-12 img {
+        width: 82px;
+        height: 82px;
+    }
+
+    .buttonNavbar {
+        margin-top: 15px;
+        width: 274px;
+        padding: 14px;
+        font-size: 14px;
+    }
+
+    .content .headline h1 {
+        font-size: 18px;
+        margin-top: 40px;
+    }
+
+    .content .product {
+        margin-top: 5px;
+    }
+
+    .content .product .imgproduct {
+        width: 250px;
+        height: 250px;
+        padding: 5px;
+        border-radius: 10px;
+    }
+
+    .content .product p {
+        margin-top: 1px;
+        font-size: 14px;
+    }
+
+    .content .headline2 h1 {
+        font-size: 18px;
+    }
+
+    .content .allProduct {
+        margin-top: 40px;
+    }
+
+    .content .product2 {
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .content .product2 .imgproduct {
+        width: 126.48px;
+        height: 126.48px;
+        border-radius: 5px;
+    }
+
+    .content .product2 p {
+        margin-top: 10px;
+        font-size: 14px;
+    }
+
+    .content .product2 a:hover {
+        color: #E97F7B;
+    }
+
+    footer {
+        text-align: center;
+        background-color: #FB928E;
+        font-size: 14px;
+        margin-top: 20px;
+        font-weight: 300;
+    }
+}
+
+@media (max-width: 1024px) {
+    .content .product .imgproduct {
+        width: 300px;
+        height: 300px;
+        padding: 10px;
+        border-radius: 15px;
+    }
+}
